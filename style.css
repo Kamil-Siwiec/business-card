@@ -8,3 +8,10 @@ html {
     box-sizing: inherit;
   }
   
+  body {
+      background-color: #2C2141;
+  }
+
+  .main {
+      background-color: #F8F8F8;
+  }
