@@ -26,6 +26,9 @@ html {
   }
 
   .person {
+      display: flex;
+      align-items: flex-start;
+
 
   }
 
@@ -53,6 +56,10 @@ html {
       margin: 0px;
       font-weight: normal;
 
+  }
+
+  .person__picture {
+      margin-right: 32px;
   }
 
   .person__position {
