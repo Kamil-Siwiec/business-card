@@ -9,7 +9,7 @@ html {
   }
   
   body {
-      background-color: #2C2141;
+      background-color: #111;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -24,8 +24,11 @@ html {
   }
 
   .main {
-      background-color: #F8F8F8;
+      background-color: #333;
+      color: #bbb;
       border-radius: 16px;
+      box-shadow: 0 0 1em #13affa, 0 0 1em #13affa;
+      border: 8px outset #333;
       width: 624px;
       margin: 16px;
       padding: 32px;
@@ -53,14 +56,19 @@ html {
   }
 
   .person__link {
-      color: #E20613;
+      color: #bbb;
       text-decoration: none;
+  }
+  .person__link--backlight:hover {
+      color: #13affa;
+
   }
 
   .person__name {
       font-size: 36px;
       margin: 0px;
       font-weight: normal;
+      color: #f1f1f1;
 
   }
 
@@ -72,12 +80,12 @@ html {
 
     font-size: 18px;
     font-style: italic;
-    color: #545454;
+    color: #f1f1f1;
     margin: 0px;
   }
 
 
   .special {
-      color: #ED6D05;
+      color: #13affa;
       font-weight: normal;
   }
