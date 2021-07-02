@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    background: rgb(19,175,250);
-    background: linear-gradient(45deg, rgba(19,175,250,1) 0%, rgba(17,17,17,1) 10%, rgba(17,17,17,1) 90%, rgba(19,175,250,1) 100%);
+  background: rgb(19,175,250);
+  background: linear-gradient(45deg, rgba(19,175,250,1) 0%, rgba(17,17,17,1) 10%, rgba(17,17,17,1) 90%, rgba(19,175,250,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
