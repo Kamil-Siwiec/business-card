@@ -1,91 +1,86 @@
 html {
-    box-sizing: border-box;
-  
-  }
-  
-  *, *:before, *:after {
-  
-    box-sizing: inherit;
-  }
-  
-  body {
-      background-color: #111;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+  box-sizing: border-box;
+}
 
-  img {
-      width: 148px;
-      height: 148px;
-      border-radius: 74px;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  .main {
-      background-color: #333;
-      color: #bbb;
-      border-radius: 16px;
-      box-shadow: 0 0 1em #13affa, 0 0 1em #13affa;
-      border: 8px outset #333;
-      width: 624px;
-      margin: 16px;
-      padding: 32px;
-  }
+body {
+    background: rgb(19,175,250);
+    background: linear-gradient(45deg, rgba(19,175,250,1) 0%, rgba(17,17,17,1) 10%, rgba(17,17,17,1) 90%, rgba(19,175,250,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .person {
-      display: flex;
-      align-items: flex-start;
+img {
+  width: 148px;
+  height: 148px;
+  border-radius: 74px;
+}
 
+.main {
+  background-color: #333;
+  color: #bbb;
+  border-radius: 16px;
+  box-shadow: 0 0 1em #13affa, 0 0 1em #13affa;
+  border: 8px outset #333;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
 
-  }
+.person {
+  display: flex;
+  align-items: flex-start;
+}
 
-  .person__description {
-      font-size: 16px;
-      line-height: 22px;
-      margin: 0px;
-  }
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+}
 
-  .person__description--with-margin {
-      margin-bottom: 22px;
-  }
+.person__description--with-margin {
+  margin-bottom: 22px;
+}
 
-  .person__info {
-      margin-bottom: 24px;
-  }
+.person__info {
+  margin-bottom: 24px;
+}
 
-  .person__link {
-      color: #bbb;
-      text-decoration: none;
-  }
-  .person__link--backlight:hover {
-      color: #13affa;
+.person__link {
+  color: #bbb;
+  text-decoration: none;
+}
+.person__link--backlight:hover {
+  color: #13affa;
+}
 
-  }
+.person__name {
+  font-size: 36px;
+  margin: 0px;
+  font-weight: normal;
+  color: #f1f1f1;
+}
 
-  .person__name {
-      font-size: 36px;
-      margin: 0px;
-      font-weight: normal;
-      color: #f1f1f1;
+.person__picture {
+  margin-right: 32px;
+}
 
-  }
+.person__position {
+  font-size: 18px;
+  font-style: italic;
+  color: #f1f1f1;
+  margin: 0px;
+}
 
-  .person__picture {
-      margin-right: 32px;
-  }
-
-  .person__position {
-
-    font-size: 18px;
-    font-style: italic;
-    color: #f1f1f1;
-    margin: 0px;
-  }
-
-
-  .special {
-      color: #13affa;
-      font-weight: normal;
-  }
+.special {
+  color: #13affa;
+  font-weight: normal;
+}
