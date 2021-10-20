@@ -1,6 +1,6 @@
 # business-card
 
-# Tools
+## tools:
 -HTML
 -CSS
 -Figma
