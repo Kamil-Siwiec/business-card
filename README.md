@@ -1,3 +1,5 @@
+![cover](gh/card.jpg)
+
 # business-card
 
 My simple business card page made on the basis of graphic design in Figma.
