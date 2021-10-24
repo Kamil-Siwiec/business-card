@@ -1,4 +1,4 @@
-![cover](gh/card.jpg)
+![cover](gh/card.png)
 
 # business-card
 
