@@ -94,3 +94,21 @@ body {
   color: #13affa;
   font-weight: normal;
 }
+
+/* Business Card Heading */
+
+h2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #13affa;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-right: 100px;
+}
+
+h2 span {
+  animation: fadeIn 2s alternate infinite;
+  opacity: 0;
+}
