@@ -8,4 +8,5 @@ See live view [business-card](https://kamil-siwiec.github.io/business-card/)
 ## Technologies & tools used:
 - HTML5, BEM,
 - CSS3, Flexbox,
-- Figma
+- Figma,
+- JavaScript
