@@ -131,3 +131,8 @@ h2 span {
   }
 }
 
+@media (orientation: landscape) and (max-width: 823px) {
+  h2 {
+    display: none;
+  }
+}
